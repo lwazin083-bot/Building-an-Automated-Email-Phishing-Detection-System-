@@ -47,7 +47,10 @@ On the terminal we connect to the VM over SSH using the SSH keys we saved when c
 <br/>
 We then install Wazuh 4.14 on the VM. <br/>
 <i>curl -s0 https://packages.wazuh.com/4.14/wazuh-install.sh</i>
-<i>sudo bash wazuh-install.sh -a 2>&1 | tee ~/wazuh-install.log</i>
+<br/>
+<i>sudo bash wazuh-install.sh -a 2>&1 | tee ~/wazuh-install.log</i><br/>
+<img src="https://i.imgur.com/Tgy3AYH.png" height="80%" width="80%"/>
+
 
 
 
