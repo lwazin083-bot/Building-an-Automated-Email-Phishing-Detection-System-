@@ -35,5 +35,11 @@ In Oracle cloud we set up our Manager Virtual Machine -- Ubuntu 22.04, 2 OCPU, 1
 <img src="https://i.imgur.com/WyVGyeW.png" height="80%" width="80%"/>
 <br />
 <img src="https://i.imgur.com/GlS2yNa.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Set up public IPv4 address:
+<img src="https://i.imgur.com/16QiYlu.png" height="80%" width="80%"/>
+
+
 
 
