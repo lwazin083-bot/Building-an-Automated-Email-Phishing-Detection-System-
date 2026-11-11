@@ -39,6 +39,16 @@ In Oracle cloud we set up our Manager Virtual Machine -- Ubuntu 22.04, 2 OCPU, 1
 <br/>
 Set up public IPv4 address:
 <img src="https://i.imgur.com/16QiYlu.png" height="80%" width="80%"/>
+<br/>
+<br/>
+On the terminal we connect to the VM over SSH using the SSH keys we saved when creating the VM:
+<img src="https://i.imgur.com/zKEnnoz.png" height="80%" width="80%"/>
+<br/>
+<br/>
+We then install Wazuh 4.14 on the VM. <br/>
+<i>curl -s0 https://packages.wazuh.com/4.14/wazuh-install.sh</i>
+<i>sudo bash wazuh-install.sh -a 2>&1 | tee ~/wazuh-install.log</i>
+
 
 
 
