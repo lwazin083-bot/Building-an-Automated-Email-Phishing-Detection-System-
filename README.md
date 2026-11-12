@@ -50,6 +50,21 @@ We then install Wazuh 4.14 on the VM. <br/>
 <br/>
 <i>sudo bash wazuh-install.sh -a 2>&1 | tee ~/wazuh-install.log</i><br/>
 <img src="https://i.imgur.com/Tgy3AYH.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Open port 443 in Oracle's firewall.<br/>
+Add Ingress rules: <br/>
+Rule 1 (dashboard): <br/>
+<img src="https://i.imgur.com/baWTaxN.png" height="80%" width="80%"/>
+<br/>
+Rulr 2 (agents): <br/>
+<img src="https://i.imgur.com/o4clmym.png" height="80%" width="80%"/>
+<br/> 
+<br/>
+Opening the dashboard. <br/>
+<img src="https://i.imgur.com/MDoIfoE.png" height="80%" width="80%"/>
+
+
 
 
 
