@@ -67,6 +67,29 @@ Opening the Wazuh dashboard. <br/>
 <br/>
 Create the agent VM. <br/>
 <img src="https://i.imgur.com/V8e2t8T.png" height="80%" width="80%"/>
+<br/>
+<br/>
+On the terminal we connect to the agent VM. <br/>
+<img src="https://i.imgur.com/otxZqjN.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Install the Wazuh agent on the agent VM. <br/>
+<img src="https://i.imgur.com/jQrnjEu.png" height="80%" width="80%"/>
+<br/>
+<br/>
+The agent has been installed and is active as seen on the Wazuh dashboard. <br/>
+<img src="https://i.imgur.com/UtQOy63.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Install python tools on the agent VM. <br/>
+<img src="https://i.imgur.com/NMGBgf9.png" height="80%" width="80%"/>
+<br/>
+<br/>
+
+
+
+
+
 
 
 
