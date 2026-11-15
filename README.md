@@ -104,6 +104,10 @@ Validating that the pipeline works after sending a test phishing email to our th
 <img src="https://i.imgur.com/0dNsKjC.png" height="80%" width="80%"/>
 <br/>
 <br/>
+Add a cron job on the agent VM that will automatically run the scanner on a schedule. <br/>
+<img src="https://i.imgur.com/kTnLqcM.png" height="80%" width="80%"/>
+<br/>
+<br/>
 
 
 
