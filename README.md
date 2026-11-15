@@ -61,8 +61,14 @@ Rulr 2 (agents): <br/>
 <img src="https://i.imgur.com/o4clmym.png" height="80%" width="80%"/>
 <br/> 
 <br/>
-Opening the dashboard. <br/>
+Opening the Wazuh dashboard. <br/>
 <img src="https://i.imgur.com/MDoIfoE.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Create the agent VM. <br/>
+<img src="https://i.imgur.com/V8e2t8T.png" height="80%" width="80%"/>
+
+
 
 
 
