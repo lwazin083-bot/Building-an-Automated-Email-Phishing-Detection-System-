@@ -85,6 +85,11 @@ Install python tools on the agent VM. <br/>
 <img src="https://i.imgur.com/NMGBgf9.png" height="80%" width="80%"/>
 <br/>
 <br/>
+With the <i>sudo nano /etc/phishing_detector.env</i> command we will store Gmail credentials so that our script can read the emails from a protected file. <br/>
+We then load the python script and do a test run and we can see that the scanner works: <i>"Clean email scan complete: 11 new scanned, 0 flagged."</i> <br/>
+<img src="https://i.imgur.com/fkTUDim.png" height="80%" width="80%"/>
+<br/>
+<br/>
 
 
 
