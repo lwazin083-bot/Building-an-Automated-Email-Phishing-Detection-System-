@@ -98,6 +98,10 @@ Add custom rules on the Manager VM. <br/>
 <img src="https://i.imgur.com/StXlgvO.png" height="80%" width="80%"/>
 <br/>
 <br/>
+Validating that the pipeline works after sending a test phishing email to our throwaway email that is being watched by this system. <br/>
+<img src="https://i.imgur.com/0dNsKjC.png" height="80%" width="80%"/>
+<br/>
+<br/>
 
 
 
