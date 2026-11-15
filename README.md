@@ -90,6 +90,15 @@ We then load the python script and do a test run and we can see that the scanner
 <img src="https://i.imgur.com/fkTUDim.png" height="80%" width="80%"/>
 <br/>
 <br/>
+Get the agent to watch the log file and then restart the VM <br/>
+<img src="https://i.imgur.com/9CIHwqG.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Add custom rules on the Manager VM. <br/>
+<img src="https://i.imgur.com/StXlgvO.png" height="80%" width="80%"/>
+<br/>
+<br/>
+
 
 
 
