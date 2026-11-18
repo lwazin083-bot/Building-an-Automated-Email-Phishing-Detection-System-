@@ -140,6 +140,11 @@ Add rules on the manager VM to wire the AI results to Wazuh <br/>
 <img src="https://i.imgur.com/YqDvHum.png" height="80%" width="80%"/>
 <br/>
 <br/>
+Schedule the triage script with a cron job <br/>
+<img src="https://i.imgur.com/CPvgYMX.png" height="80%" width="80%"/>
+<br/>
+<br/>
+
 
 
 
