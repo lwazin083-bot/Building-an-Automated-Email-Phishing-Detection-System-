@@ -136,6 +136,12 @@ Add Gemini API key and model to the config with the <i>sudo nao...</i> command, 
 <img src="https://i.imgur.com/zPOkD5n.png" height="80%" width="80%"/>
 <br/>
 <br/>
+Add rules on the manager VM to wire the AI results to Wazuh <br/>
+<img src="https://i.imgur.com/YqDvHum.png" height="80%" width="80%"/>
+<br/>
+<br/>
+
+
 
 
 
