@@ -112,10 +112,26 @@ The Phishing emails caught on our Wazuh SIEM under rule 100207. <br/>
 <img src="https://i.imgur.com/Q8Lde67.png" height="80%" width="80%"/>
 <br/>
 <br/>
-
-
-
-
+Now that our detection pipeline and our SIEM does get the telemtry, we will incorporate AI into the system -- Gemini API, Flash-Lite class model. <br/>
+<img src="https://i.imgur.com/E0KoGJo.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Updated python script </br>
+<img src="https://i.imgur.com/AIGiUyf.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Swap the new script under the same name as the old ones so the cron job does not need changing, then test it, and now the new lines are ending with "sent for AI review <br/>
+<img src="https://i.imgur.com/wZXXAak.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Checking the candidate files "<i>cat /var/log/phishing_candiadate.jsol"</i> <br/>
+<img src="https://i.imgur.com/nHsS2xb.png" height="80%" width="80%"/>
+<br/>
+<br/>
+load the AI triage script, the script reads new record then asks Gemeni for a verdict.<br/> <br/>
+<img src="https://i.imgur.com/lflR2WP.png" height="80%" width="80%"/>
+<br/>
+<br/>
 
 
 
