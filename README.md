@@ -132,6 +132,12 @@ load the AI triage script, the script reads new record then asks Gemeni for a ve
 <img src="https://i.imgur.com/lflR2WP.png" height="80%" width="80%"/>
 <br/>
 <br/>
+Add Gemini API key and model to the config with the <i>sudo nao...</i> command, then create the AI log file. <br/>
+<img src="https://i.imgur.com/zPOkD5n.png" height="80%" width="80%"/>
+<br/>
+<br/>
+
+
 
 
 
