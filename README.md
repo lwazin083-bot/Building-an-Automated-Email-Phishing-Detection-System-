@@ -108,6 +108,11 @@ Add a cron job on the agent VM that will automatically run the scanner on a sche
 <img src="https://i.imgur.com/kTnLqcM.png" height="80%" width="80%"/>
 <br/>
 <br/>
+The Phishing emails caught on our Wazuh SIEM under rule 100207. <br/>
+<img src="https://i.imgur.com/Q8Lde67.png" height="80%" width="80%"/>
+<br/>
+<br/>
+
 
 
 
