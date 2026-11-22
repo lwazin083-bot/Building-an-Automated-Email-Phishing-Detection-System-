@@ -144,6 +144,24 @@ Schedule the triage script with a cron job <br/>
 <img src="https://i.imgur.com/CPvgYMX.png" height="80%" width="80%"/>
 <br/>
 <br/>
+We can see the results live as our AI agent gives verdicts and summaries.<br/>
+<img src="https://i.imgur.com/hYcIkft.png" height="80%" width="80%"/>
+<br/>
+<br/>
+As seen from Wazuh<br/>
+<img src="https://i.imgur.com/cxcrSh0.png" height="80%" width="80%"/>
+<br/>
+<img src="https://i.imgur.com/4eA83CE.png" height="80%" width="80%"/>
+<br/>
+<br/>
+We now add a "test emails" python script to our agent VM to automate the sending of the emails, and an "analyze results python script. <br/>
+<img src="https://i.imgur.com/eqdPnXw.png" height="80%" width="80%"/>
+<br/>
+<br/>
+
+
+
+
 
 
 
