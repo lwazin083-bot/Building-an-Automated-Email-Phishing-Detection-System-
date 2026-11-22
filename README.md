@@ -189,9 +189,23 @@ The system caught the new emails. <br/>
 Reading the results. <br/>
 <img src="https://i.imgur.com/UlCWXvE.png" height="80%" width="80%"/>
 <br/>
-The AI catches what the rules miss. It found all 7 of the subtle phishing emails while the rules caught none of the subtle one, just the obvious ones.
+The AI catches what the rules miss. It found all 7 of the subtle phishing emails while the rules caught none of the subtle ones, just the obvious ones.
 <br/>
 <br/>
+the data from Wazuh. <br/>
+<img src="https://i.imgur.com/AcAeQ7x.png" height="80%" width="80%"/>
+<br/>
+<img src="https://i.imgur.com/8aasXDX.png" height="80%" width="80%"/>
+<br/>
+<img src="https://i.imgur.com/aMD4iv7.png" height="80%" width="80%"/>
+<br/>
+<img src="https://i.imgur.com/LWrxYKU.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Phishing email trick people into giving away credentials or money. This project was an attempt at creating a system that watches a mailbox and send alerts to a SIEM automatically. The control room (The Manager VM) collects alerts and shows them on a dashboard. The watcher (The Agent VM) checks a mailbox in a given interval (every 5 minutes for our experiment), it looks for common phishing indicators like urgent wording, suspicious links, fake sender names, risky attachments. The two VMs are connected, the watcher reports its findings to the control room, which then turns that data into alerts. We then added an AI. Each suspicious email is also read by Google's Gemini, which gives a verdict and a summary. We tested the system with two batches of fake emails (first 16, then 24). <br/> <b>What we found:</b>-- The basic checks caught the obvious phishing emails, while the AI caught the subtle ones as well. <b>The Limitations</b>-- for this experiment, the AI also wrongly flagged more genuine emails likely because "company" email came from a Gmail address. The AI is a second reviewer for the human, it takes no decisions of its own. Another limitation was that all emails were sent through Gmail, so SPF, DKIM, and DMARC passed for every one and the authentication check was not exercised.
+
+
+
 
 
 
