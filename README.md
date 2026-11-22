@@ -158,6 +158,47 @@ We now add a "test emails" python script to our agent VM to automate the sending
 <img src="https://i.imgur.com/eqdPnXw.png" height="80%" width="80%"/>
 <br/>
 <br/>
+We run the "send test emails" script. 16 emails 8 of them are phishing emails and 8 are genuine. <br/>
+<img src="https://i.imgur.com/vvhnGQw.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Reading the results. <br/>
+<img src="https://i.imgur.com/bItuOFj.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Now that our pipeline works, we go for a new run. <br/>
+<img src="https://i.imgur.com/9Ka6hlc.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Adding the decoder to the manager VM. <br/>
+<img src="https://i.imgur.com/oLYjm2x.png" height="80%" width="80%"/>
+<br/>
+<br/>
+From Wazuh, we can see fileds like "data.verdict", "data.sender", "data.reason", "data.summary" <br/>
+<img src="https://i.imgur.com/rczx2Sf.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Sending new batch of test emails. <br/>
+<img src="https://i.imgur.com/nQzSkH5.png" height="80%" width="80%"/>
+<br/>
+<br/>
+The system caught the new emails. <br/>
+<img src="https://i.imgur.com/E5JGNoI.png" height="80%" width="80%"/>
+<br/>
+<br/>
+Reading the results. <br/>
+<img src="https://i.imgur.com/UlCWXvE.png" height="80%" width="80%"/>
+<br/>
+The AI catches what the rules miss. It found all 7 of the subtle phishing emails while the rules caught none of the subtle one, just the obvious ones.
+<br/>
+<br/>
+
+
+
+
+
+
+
 
 
 
